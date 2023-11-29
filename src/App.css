@@ -12,7 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body {
+  background-color: #282c34; /* You can change this color to your preference */
+}
+.App {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,6 +31,21 @@
   color: white;
 }
 
+/* .card {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
 .App-link {
   color: #61dafb;
 }
